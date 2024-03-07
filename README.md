@@ -2,16 +2,15 @@
 It's all about separation of concerns, so making sure that different parts of your code do different things and you clearly know which part is responsible for what.
 <br/>
 
+
 ## Model
 - Models are basically objects or is a part of your code that is responsible for representing your data and allow you to work with your data
 - So things like saving data, fetching data to or from a file or even if it's just in memory, this should be handled by models.
-
 <br/>
 
 ## Views
 - The views are responsible for what the user sees in the end, they are responsible for rendering the right content in our html documents and sending that back to the users.
 - So they are decoupled from your application code and are just having some light or minor integrations regarding the data we inject into our templating engine to generate these views.
-
 <br/>
 
 ## Controller
